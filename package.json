@@ -9,7 +9,6 @@
   },
   "scripts": {
     "start": "node ./dist",
-    "crawl": "./node_modules/.bin/babel ./src/index.js",
     "build": "./node_modules/.bin/babel ./src --out-dir ./dist",
     "build:watch": "./node_modules/.bin/babel ./src --watch --out-dir ./dist --source-maps"
   },
